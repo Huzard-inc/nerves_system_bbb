@@ -1,0 +1,8 @@
+# Add project-specific packages for Linux here
+
+config BR2_LINUX_KERNEL_EXT_RPMSG_PRU
+	bool "rpmsg-pru"
+	help
+	  RPMsg drivers for the BeagleBone PRUs
+
+	  https://github.com/beagleboard/linux
